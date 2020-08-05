@@ -1,16 +1,17 @@
 const { exec } = require('child_process');
 
-const lib = process.argv[2];
+const type = process.argv[2];
 const name = process.argv[3];
 
 const openvs = `code ${name}`;
+// set path in if statements according to your requirements
 let path, project;
 
-if (lib === 'angular') {
+if (type === 'angular') {
     path = 'development/angular';
     project = `ng new ${name} --routing`;
 }
-if (lib === 'react') {
+if (type === 'react') {
     path = 'development/react';
     project = `npx create-react-app ${name}`;
 }
