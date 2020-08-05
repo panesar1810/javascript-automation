@@ -7,4 +7,4 @@ Create angular or react project and open in vscode
 > node create <'angular' or 'react'> <project-name>
 ```
 
-Remember to edit ``` const path ``` in files according to your requirements
+Remember to edit ``` path ``` variable in files according to your requirements
