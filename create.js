@@ -9,7 +9,7 @@ let path, project;
 
 if (type === 'angular') {
     path = 'development/angular';
-    project = `ng new ${name} --routing`;
+    project = `ng new ${name} --routing --style scss`;
 }
 if (type === 'react') {
     path = 'development/react';
