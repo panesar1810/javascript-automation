@@ -10,7 +10,7 @@ NodeJS is required
 ### Create multiple angular components
 
 ```sh
-> node component test <component-name> ...
+> node component <component-name> ...
 ```
 
 Remember to edit ``` path ``` variable in files according to your requirements
